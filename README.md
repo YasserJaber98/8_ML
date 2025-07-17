@@ -198,4 +198,19 @@ The system supports automated retraining based on:
 
 ---
 
+## ⚠️ Note on Included Files
+
+This repository includes the following files committed directly for convenience:
+
+- `user_features.json` (pre-computed user features)  
+- `lg_churn.pkl` (trained model file)  
+
+**Important:** Including data files and model binaries directly in the repository is generally considered **bad practice** because:
+
+- It increases repo size unnecessarily.  
+- It complicates versioning and collaboration.  
+- Sensitive or large files should be managed via dedicated storage solutions (e.g., cloud storage, model registries).
+
+---
+
 > **Note:** This is a demonstration project. Some components (Docker, scheduling, cloud storage) are implemented but not fully operational in the current development environment.

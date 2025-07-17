@@ -78,7 +78,7 @@ This project implements an end-to-end solution for customer churn prediction usi
 
 ```bash
 conda env create -f environment.yml
-conda activate customer-churn
+conda activate customerـchurn
 ```
 
 ---
